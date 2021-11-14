@@ -7,6 +7,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1028.0"
+    "atob": "^2.1.2"
   }
 }
