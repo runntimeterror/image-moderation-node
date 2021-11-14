@@ -44,7 +44,7 @@ exports.handler = (event, context, callback) => {
       if (DISALLOWED_LABELS.includes(label.Name)) {
         callback(null,  JSON.stringify({
           ImageModeration: `fail`,
-          Description: `Image contains depiction of ${label.Name}`
+          Description: `Image contains ${label.Name}`
         })) 
         return
       }
